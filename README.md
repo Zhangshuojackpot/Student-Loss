@@ -1,5 +1,5 @@
 # Student Loss
-This is the official PyTorch implementation of our work [Student Loss: Towards the Probability Assumption in Inaccurate Supervision](https://ieeexplore.ieee.org/abstract/document/10412669), which has been published in IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI). This repo contains some key codes of our HMW and its application in MNIST, CIFAR10, and CIFAR100 datasets.<br>
+This is the official PyTorch implementation of our work [Student Loss: Towards the Probability Assumption in Inaccurate Supervision](https://ieeexplore.ieee.org/abstract/document/10412669), which has been published in IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI). This repo contains some key codes of our method and its application in MNIST, CIFAR10, and CIFAR100 datasets.<br>
 <div align=center>
 <img width="800" src="https://github.com/Zhangshuojackpot/Student-Loss/blob/main/introduction.png"/>
 </div>
