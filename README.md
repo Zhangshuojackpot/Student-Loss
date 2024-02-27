@@ -29,14 +29,15 @@ If you think this repo is useful in your research, please consider citing our pa
   pages={1-15},
   doi={10.1109/TPAMI.2024.3357518}}
 ```
-Meanwhile, our implementation uses parts of some public codes in [Scalable Penalized Regression for Noise Detection in Learning With Noisy Labels](https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Scalable_Penalized_Regression_for_Noise_Detection_in_Learning_With_Noisy_CVPR_2022_paper.html). Please consider citing this paper.
+Meanwhile, our implementation uses parts of some public codes in [Learning With Noisy Labels via Sparse Regularization
+](https://openaccess.thecvf.com/content/ICCV2021/html/Zhou_Learning_With_Noisy_Labels_via_Sparse_Regularization_ICCV_2021_paper.html). Please consider citing this paper.
 ```
-@InProceedings{Wang_2022_CVPR,
-    author    = {Wang, Yikai and Sun, Xinwei and Fu, Yanwei},
-    title     = {Scalable Penalized Regression for Noise Detection in Learning With Noisy Labels},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2022},
-    pages     = {346-355}
+@InProceedings{Zhou_2021_ICCV,
+    author    = {Zhou, Xiong and Liu, Xianming and Wang, Chenyang and Zhai, Deming and Jiang, Junjun and Ji, Xiangyang},
+    title     = {Learning With Noisy Labels via Sparse Regularization},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {72-81}
 }
 ```
