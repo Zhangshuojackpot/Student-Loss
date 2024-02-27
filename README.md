@@ -29,7 +29,7 @@ If you think this repo is useful in your research, please consider citing our pa
   pages={1-15},
   doi={10.1109/TPAMI.2024.3357518}}
 ```
-Meanwhile, our implementation uses parts of some public codes in [Scalable Penalized Regression for Noise Detection in Learning With Noisy Labels] (https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Scalable_Penalized_Regression_for_Noise_Detection_in_Learning_With_Noisy_CVPR_2022_paper.html). Please consider citing this paper.
+Meanwhile, our implementation uses parts of some public codes in [Scalable Penalized Regression for Noise Detection in Learning With Noisy Labels](https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Scalable_Penalized_Regression_for_Noise_Detection_in_Learning_With_Noisy_CVPR_2022_paper.html). Please consider citing this paper.
 ```
 @InProceedings{Wang_2022_CVPR,
     author    = {Wang, Yikai and Sun, Xinwei and Fu, Yanwei},
