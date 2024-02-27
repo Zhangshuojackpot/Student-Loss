@@ -11,7 +11,7 @@ Noisy labels are often encountered in datasets, but learning with them is challe
 The experimental environment is in [requirements.txt](https://github.com/Zhangshuojackpot/Student-Loss/blob/main/requirements.txt).<br>
 
 ### Usage
-Run [main_lt.py](https://github.com/Zhangshuojackpot/Label-Decoupling-Module/blob/main/get_ptbxl.sh) to obtain the results. For example, if you want to obtain the result of the LT-GCE loss under the noise rate of 0.2 of the symmetric noise on MNIST, you can type:<br>
+Run [main_lt.py](https://github.com/Zhangshuojackpot/Student-Loss/blob/main/codes_upload_real/main_lt.py) to obtain the results. For example, if you want to obtain the result of the LT-GCE loss under the noise rate of 0.2 of the symmetric noise on MNIST, you can type:<br>
 ```
 python main_lt.py --dataset 'MNIST' --noise_type 'symmetric' --noise_rate 0.2 --is_student 1 --loss 'GCE'
 ```
