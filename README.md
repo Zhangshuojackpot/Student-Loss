@@ -6,3 +6,37 @@ This is the official PyTorch implementation of our work [Student Loss: Towards t
 
 ### Abstract
 Noisy labels are often encountered in datasets, but learning with them is challenging. Although natural discrepancies between clean and mislabeled samples in a noisy category exist, most techniques in this field still gather them indiscriminately, which leads to their performances being partially robust. In this paper, we reveal both empirically and theoretically that the learning robustness can be improved by assuming deep features with the same labels follow a student distribution, resulting in a more intuitive method called student loss. By embedding the student distribution and exploiting the sharpness of its curve, our method is naturally data-selective and can offer extra strength to resist mislabeled samples. This ability makes clean samples aggregate tightly in the center, while mislabeled samples scatter, even if they share the same label. Additionally, we employ the metric learning strategy and develop a large-margin student (LT) loss for better capability. It should be noted that our approach is the first work that adopts the prior probability assumption in feature representation to decrease the contributions of mislabeled samples. This strategy can enhance various losses to join the student loss family, even if they have been robust losses. Experiments demonstrate that our approach is more effective in inaccurate supervision. Enhanced LT losses significantly outperform various state-of-the-art methods in most cases. Even huge improvements of over 50% can be obtained under some conditions.
+
+### Preparation
+The experimental environment is in [requirements.txt](https://github.com/Zhangshuojackpot/Label-Decoupling-Module/blob/main/requirements.txt).<br>
+
+### Usage
+Run [main_lt.py](https://github.com/Zhangshuojackpot/Label-Decoupling-Module/blob/main/get_ptbxl.sh) to obtain the results. For example, if you want to obtain the result of the LT-GCE loss under the noise rate of 0.2 of the symmetric noise on MNIST, you can type:<br>
+```
+python main_lt.py --dataset 'MNIST' --noise_type 'symmetric' --noise_rate 0.2 --is_student 1 --loss 'GCE'
+```
+
+### Citation
+If you think this repo is useful in your research, please consider citing our paper.
+```
+@ARTICLE{10412669,
+  author={Zhang, Shuo and Li, Jian-Qing and Fujita, Hamido and Li, Yu-Wen and Wang, Deng-Bao and Zhu, Ting-Ting and Zhang, Min-Ling and Liu, Cheng-Yu},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Student Loss: Towards the Probability Assumption in Inaccurate Supervision}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-15},
+  doi={10.1109/TPAMI.2024.3357518}}
+```
+Meanwhile, our implementation uses parts of some public codes in [Scalable Penalized Regression for Noise Detection in Learning With Noisy Labels (https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Scalable_Penalized_Regression_for_Noise_Detection_in_Learning_With_Noisy_CVPR_2022_paper.html). Please consider citing this paper.
+```
+@InProceedings{Wang_2022_CVPR,
+    author    = {Wang, Yikai and Sun, Xinwei and Fu, Yanwei},
+    title     = {Scalable Penalized Regression for Noise Detection in Learning With Noisy Labels},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {346-355}
+}
+```
