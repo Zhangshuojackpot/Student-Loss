@@ -24,10 +24,12 @@ If you think this repo is useful in your research, please consider citing our pa
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
   title={Student Loss: Towards the Probability Assumption in Inaccurate Supervision}, 
   year={2024},
-  volume={},
-  number={},
-  pages={1-15},
+  volume={46},
+  number={6},
+  pages={4460-4475},
+  keywords={Noise measurement;Training;Task analysis;Robustness;Optimization;Labeling;Probability distribution;Deep learning;learning with noisy label;robust loss function},
   doi={10.1109/TPAMI.2024.3357518}}
+
 ```
 Meanwhile, our implementation uses parts of some public codes in [Learning With Noisy Labels via Sparse Regularization
 ](https://openaccess.thecvf.com/content/ICCV2021/html/Zhou_Learning_With_Noisy_Labels_via_Sparse_Regularization_ICCV_2021_paper.html). Please consider citing this paper.
